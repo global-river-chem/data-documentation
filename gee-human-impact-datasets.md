@@ -14,17 +14,8 @@ Research findings for human impact datasets available on Google Earth Engine rel
 
 ## Notes
 
-- Add any general observations or notes about dataset availability here
-- Links to relevant GEE documentation
-- Data access requirements or restrictions
-
 ## Recommended Datasets
 
-List your top picks here after evaluation:
-
-1.
-2.
-3.
 
 ## Data Gaps Identified
 
