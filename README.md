@@ -5,6 +5,7 @@ Centralized documentation of data sources and resources for the global-river-che
 ## Contents
 
 - [GEE Human Impact Datasets](gee-human-impact-datasets.md) - Google Earth Engine datasets for human impact analysis
+- [Aurora to GEE Migration](aurora-to-gee-migration.md) - Data source comparison for spatial workflow migration
 
 ## Purpose
 
