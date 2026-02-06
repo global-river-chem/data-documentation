@@ -7,7 +7,7 @@ Comparison of raster data sources between the legacy Aurora/AppEEARS workflow an
 | Variable | Aurora Source | GEE Equivalent | Notes |
 |----------|---------------|----------------|-------|
 | Elevation | `raw-elevation/` (SRTM) | `USGS/SRTMGL1_003` | Same source, should match |
-| Land Cover | `raw-glcc-landcover-data/` (GLCC) | `MODIS/061/MCD12Q1` | **DIFFERENT** - Aurora uses GLCC, GEE has MODIS. May need to verify classification scheme |
+| Land Cover | `raw-glcc-landcover-data/` (GLCC) | `MODIS/061/MCD12Q1` | **DIFFERENT** - Aurora uses GLCC, GEE has MODIS. This is OK because we use GEE in GlASS |
 | NPP | `raw-npp-v061/` (MODIS MOD17A3) | `MODIS/061/MOD17A3HGF` | Same product, v061 |
 | Evapotranspiration | `raw-evapo-modis16a2-v061/` | `MODIS/061/MOD16A2` | Same product, v061 |
 | Air Temperature | `raw-airtemp-monthly/` | `ECMWF/ERA5_LAND/MONTHLY_AGGR` | Switching to ERA5-Land for monthly analysis capability |
