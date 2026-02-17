@@ -244,7 +244,7 @@ var nlcd = ee.ImageCollection('USGS/NLCD_RELEASES/2021_REL/NLCD');
 ---
 
 **Last Updated:** 2026-01-22
-**Researcher:** Sidney Bush
+**By:** Sidney Bush
 
 ## Sources
 
