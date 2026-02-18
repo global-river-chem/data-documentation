@@ -32,7 +32,7 @@ All currently screened datasets, with row-level fields for:
 - stream chemistry relevance
 - keep tier (`Core`, `Secondary`, `Context-only`, `Support`)
 
-See: `gee-human-impact-datasets-global-join.csv`
+Companion CSV: [gee-human-impact-datasets-global-join.csv](gee-human-impact-datasets-global-join.csv)
 
 ## Catalog Scope Note
 
