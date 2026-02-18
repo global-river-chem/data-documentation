@@ -14,7 +14,7 @@ Sentinel-5P NO2 | `COPERNICUS/S5P/OFFL/L3_NO2` | Global | 2018-present | 1113.2 
  HydroATLAS Basins L06 | `WWF/HydroATLAS/v1/Basins/level06` | Global | Static | Vector basins | Vector (not directly comparable) |
  TIGER Roads | `TIGER/2016/Roads` | USA + territories | 2016 | Vector lines | Vector (not directly comparable) | 
 
-## Secondary Add-ons (Use as Needed)
+## Secondary
 
 | Dataset | Asset ID | Notes |
 |---|---|---|
