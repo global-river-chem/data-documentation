@@ -1,5 +1,7 @@
 # GlASS to GEE Data Source Migration
 
+csv: [driver_dataset_origin_era5land_comparison.csv](driver_dataset_origin_era5land_comparison.csv)
+
 ## Driver Decision Table
 
 `On GEE (Exact Match)?` is `Yes` only when an exact GlASS source match exists on GEE.
