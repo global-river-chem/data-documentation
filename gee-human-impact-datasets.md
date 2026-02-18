@@ -1,18 +1,18 @@
 # Google Earth Engine Human Impact Datasets (Appears to GEE)
 
-Comparison of available GEE datasets for the migration from **Appears**-based drivers to GEE extraction.
+Comparison of available GEE datasets for human impacts.
 
 ## Final Recommended Subset (Primary)
 
-| Tier | Dataset | Asset ID | Coverage | Temporal Extent | Nominal Resolution | Scale vs ERA5/MODIS | 
-|---|---|---|---|---|---|---|
-| Core (Global) | Global Human Modification | `CSP/HM/GlobalHumanModification` | Global terrestrial | 2016 | 1000 m | Similar to MODIS; much finer than ERA5 | 
-| Core (Global) | GHSL Built-up Surface | `JRC/GHSL/P2023A/GHS_BUILT_S` | Global | 1975-2030 (5-year) | 100 m | Much finer than MODIS/ERA5 | 
-| Core (Global) | GAIA Impervious Transition Year | `Tsinghua/FROM-GLC/GAIA/v10` | Global | 1985-2018 | 30 m | Much finer than MODIS/ERA5 | 
-| Core (Global) | Sentinel-5P NO2 | `COPERNICUS/S5P/OFFL/L3_NO2` | Global | 2018-present | 1113.2 m | Similar to MODIS; finer than ERA5 |
-| Core (Global) | Sentinel-5P SO2 | `COPERNICUS/S5P/OFFL/L3_SO2` | Global | 2018-present | 1113.2 m | Similar to MODIS; finer than ERA5 | 
-| Core (Global) | HydroATLAS Basins L06 | `WWF/HydroATLAS/v1/Basins/level06` | Global | Static | Vector basins | Vector (not directly comparable) |
-| Core (US/NA) | TIGER Roads | `TIGER/2016/Roads` | USA + territories | 2016 | Vector lines | Vector (not directly comparable) | 
+| Dataset | Asset ID | Coverage | Temporal Extent | Nominal Resolution | Scale vs ERA5/MODIS | 
+|---|---|---|---|---|---|
+ Global Human Modification | `CSP/HM/GlobalHumanModification` | Global terrestrial | 2016 | 1000 m | Similar to MODIS; much finer than ERA5 | 
+ GHSL Built-up Surface | `JRC/GHSL/P2023A/GHS_BUILT_S` | Global | 1975-2030 (5-year) | 100 m | Much finer than MODIS/ERA5 | 
+ GAIA Impervious Transition Year | `Tsinghua/FROM-GLC/GAIA/v10` | Global | 1985-2018 | 30 m | Much finer than MODIS/ERA5 | 
+Sentinel-5P NO2 | `COPERNICUS/S5P/OFFL/L3_NO2` | Global | 2018-present | 1113.2 m | Similar to MODIS; finer than ERA5 |
+ Sentinel-5P SO2 | `COPERNICUS/S5P/OFFL/L3_SO2` | Global | 2018-present | 1113.2 m | Similar to MODIS; finer than ERA5 | 
+ HydroATLAS Basins L06 | `WWF/HydroATLAS/v1/Basins/level06` | Global | Static | Vector basins | Vector (not directly comparable) |
+ TIGER Roads | `TIGER/2016/Roads` | USA + territories | 2016 | Vector lines | Vector (not directly comparable) | 
 
 ## Secondary Add-ons (Use as Needed)
 
