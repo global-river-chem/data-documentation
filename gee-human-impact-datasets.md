@@ -1,6 +1,6 @@
-# Google Earth Engine Human Impact Datasets (GlASS to GEE)
+# Google Earth Engine Human Impact Datasets (Appears to GEE)
 
-Concise, chemistry-focused inventory of GEE datasets for the migration from **GlASS**-based drivers to GEE extraction.
+Concise, chemistry-focused inventory of GEE datasets for the migration from **Appears**-based drivers to GEE extraction.
 
 ## Final Recommended Subset (Primary)
 

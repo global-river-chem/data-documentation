@@ -1,12 +1,12 @@
-# GlASS to GEE Data Source Migration
+# Appears to GEE Data Source Migration
 
-csv: [driver_dataset_origin_era5land_comparison.csv](driver_dataset_origin_era5land_comparison.csv)
+csv: [driver_dataset_origin_appears_era5land_comparison.csv](driver_dataset_origin_appears_era5land_comparison.csv)
 
 ## Driver Decision Table
 
-`On GEE (Exact Match)?` is `Yes` only when an exact GlASS source match exists on GEE.
+`On GEE (Exact Match)?` is `Yes` only when an exact Appears source match exists on GEE.
 
-| Driver | On GEE (Exact Match)? | Preferred GEE Dataset | Same Database as GlASS Source? | GlASS Spatial Res | GlASS Temporal Res | GlASS Data Type | Selected GEE Spatial Res | Selected GEE Temporal Res | Selected GEE Data Type | Key Differences |
+| Driver | On GEE (Exact Match)? | Preferred GEE Dataset | Same Database as Appears Source? | Appears Spatial Res | Appears Temporal Res | Appears Data Type | Selected GEE Spatial Res | Selected GEE Temporal Res | Selected GEE Data Type | Key Differences |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Elevation | No | `USGS/SRTMGL1_003` | No | 30 arc-sec (~1 km) | Static | Continuous raster (elevation m) | 30 m | Static | Continuous raster (elevation m) | Different product lineage (WorldClim-processed SRTM vs SRTM GEE) and finer selected spatial resolution |
 | Land Cover | No | `projects/sat-io/open-datasets/GLC-FCS30D/annual` | No | 1 km (GLCC) | Static (single epoch) | Categorical raster classes | 30 m | Annual (1985-2022) | Categorical raster classes | Major change: static GLCC to dynamic GLC_FCS30D; class schemes differ |
@@ -26,6 +26,6 @@ Server data location: `/home/shares/lter-si/si-watershed-extract/`
 
 ## References
 
-- GlASS article: https://www.nature.com/articles/s41597-025-05937-2
+- Appears article: https://www.nature.com/articles/s41597-025-05937-2
 - ERA5-Land daily in GEE: https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR
 - ERA5-Land monthly in GEE: https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_MONTHLY_AGGR

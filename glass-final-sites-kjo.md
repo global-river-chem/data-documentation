@@ -1,4 +1,4 @@
-# Final GlASS Sites (Long-term Paper)
+# Final Appears Sites (Long-term Paper)
 
 Final sites needed to run through AppEEARS workflow for kjo's long-term paper.
 Date: February 18, 2026
