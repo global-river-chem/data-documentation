@@ -1,6 +1,7 @@
-# Final GlASS Sites (KJO Paper)
+# Final GlASS Sites (Long-term Paper)
 
-Final sites represented in GlASS, per KJO paper.
+Final sites needed to run through AppEEARS workflow for kjo's long-term paper.
+Date: February 18, 2026
 
 | ID | LTER | Stream_Name |
 |---|---|---|
