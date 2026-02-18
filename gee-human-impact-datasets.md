@@ -5,7 +5,7 @@ Concise, chemistry-focused inventory of GEE datasets for the migration from **Ap
 ## Final Recommended Subset (Primary)
 
 | Tier | Dataset | Asset ID | Coverage | Temporal Extent | Nominal Resolution | Scale vs ERA5/MODIS | 
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | Core (Global) | Global Human Modification | `CSP/HM/GlobalHumanModification` | Global terrestrial | 2016 | 1000 m | Similar to MODIS; much finer than ERA5 | 
 | Core (Global) | GHSL Built-up Surface | `JRC/GHSL/P2023A/GHS_BUILT_S` | Global | 1975-2030 (5-year) | 100 m | Much finer than MODIS/ERA5 | 
 | Core (Global) | GAIA Impervious Transition Year | `Tsinghua/FROM-GLC/GAIA/v10` | Global | 1985-2018 | 30 m | Much finer than MODIS/ERA5 | 
