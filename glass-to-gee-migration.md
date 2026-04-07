@@ -1,6 +1,7 @@
 # Appears to GEE Data Source Migration
 
-csv: [driver_dataset_origin_appears_era5land_comparison.csv](driver_dataset_origin_appears_era5land_comparison.csv)
+CSV output stored in Box documentation folder:
+`/Users/sidneybush/Library/CloudStorage/Box-Box/Sidney_Bush/SiSyn/data_checking/documentation/driver_dataset_origin_appears_era5land_comparison.csv`
 
 ## Driver Decision Table
 

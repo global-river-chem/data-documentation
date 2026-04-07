@@ -71,9 +71,8 @@ Ordering rule used below:
 
 ## Restored Full Inventory
 
-The companion CSV keeps its legacy filename but now stores the restored row-level inventory for all screened datasets:
-
-[gee-human-impact-datasets-global-join.csv](gee-human-impact-datasets-global-join.csv)
+CSV output stored in Box documentation folder:
+`/Users/sidneybush/Library/CloudStorage/Box-Box/Sidney_Bush/SiSyn/data_checking/documentation/gee-human-impact-datasets-global-join.csv`
 
 CSV fields: `theme`, `dataset`, `asset_id`, `catalog_type`, `spatial_extent`, `temporal_extent`, `temporal_cadence`, `nominal_resolution`, `scale_similarity_vs_era5_modis`, `stream_chemistry_relevance`, `recommendation`, `global_join_notes`.
 
