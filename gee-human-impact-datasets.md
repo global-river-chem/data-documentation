@@ -2,19 +2,19 @@
 
 ## Primary Shortlist for First-Pass Global Joins
 
-| Tier | Dataset | Public EE availability | Asset ID | Spatial Extent | Temporal Extent | Temporal Resolution | Spatial Resolution | Why Keep It |
-|---|---|---|---|---|---|---|---|---|
-| Core (Global) | GAIA (Year of Change to Impervious) | Official | `Tsinghua/FROM-GLC/GAIA/v10` | Global | 1985-2018 | Encoded annual transition year | 30 m | Long-term urban expansion history |
-| Core (Global) | Global Human Modification v3 | Community | `projects/sat-io/open-datasets/ghm-v3` | Global | 1990-2022 (5-year steps) | 5-year epochs | 300 m and 90 m | Time-varying human pressure series |
-| Core (Global) | GHSL Built-up Surface | Official | `JRC/GHSL/P2023A/GHS_BUILT_S` | Global | 1975-2030 | 5-year epochs | 100 m | Impervious and urban baseline |
-| Core (Global) | GHSL Population | Official | `JRC/GHSL/P2023A/GHS_POP` | Global | 1975-2030 | 5-year epochs | 100 m | Population pressure baseline |
-| Core (Global) | Sentinel-5P OFFL NO2 | Official | `COPERNICUS/S5P/OFFL/L3_NO2` | Global | 2018-present | Near-daily | 1113.2 m | Atmospheric N loading proxy |
-| Core (Global) | Sentinel-5P OFFL SO2 | Official | `COPERNICUS/S5P/OFFL/L3_SO2` | Global | 2018-present | Near-daily | 1113.2 m | Atmospheric S loading proxy |
-| Core (Global) | Global Human Modification (gHM) | Official | `CSP/HM/GlobalHumanModification` | Global terrestrial | 2016 | Single year | 1000 m | Composite human pressure baseline |
-| Core (Global) | NPKGRIDS | Community | `projects/sat-io/open-datasets/NPKGRIDS` | Global | 2015-2020 (circa 2020) | Static snapshot | 0.05 deg (~5.6 km) | Direct fertilizer input proxy |
-| Core (Global) | Global Dam Watch (GDW) | Community | `projects/sat-io/open-datasets/GDW/GDW_BARRIERS_V1_0` | Global | Current | Static snapshot | Vector points | Strong water infrastructure pressure layer |
-| Core (Global) | HydroATLAS Basins L06 | Official | `WWF/HydroATLAS/v1/Basins/level06` | Global | Static | Static table | Vector basins | Basin-scale anthropogenic context |
-| Core (US/NA) | TIGER US Census Roads | Official | `TIGER/2016/Roads` | USA + territories | 2016 | Single snapshot | Vector lines | Road runoff and infrastructure supplement |
+| Dataset | Public EE availability | Asset ID | Spatial Extent | Temporal Extent | Temporal Resolution | Spatial Resolution | Key Attributes |
+|---|---|---|---|---|---|---|---|
+| GAIA (Year of Change to Impervious) | Official | `Tsinghua/FROM-GLC/GAIA/v10` | Global | 1985-2018 | Encoded annual transition year | 30 m | Year of impervious transition |
+| Global Human Modification v3 | Community | `projects/sat-io/open-datasets/ghm-v3` | Global | 1990-2022 (5-year steps) | 5-year epochs | 300 m and 90 m | Human modification index time series |
+| GHSL Built-up Surface | Official | `JRC/GHSL/P2023A/GHS_BUILT_S` | Global | 1975-2030 | 5-year epochs | 100 m | Built-up / impervious surface |
+| GHSL Population | Official | `JRC/GHSL/P2023A/GHS_POP` | Global | 1975-2030 | 5-year epochs | 100 m | Population count and density |
+| Sentinel-5P OFFL NO2 | Official | `COPERNICUS/S5P/OFFL/L3_NO2` | Global | 2018-present | Near-daily | 1113.2 m | Tropospheric NO2 column |
+| Sentinel-5P OFFL SO2 | Official | `COPERNICUS/S5P/OFFL/L3_SO2` | Global | 2018-present | Near-daily | 1113.2 m | SO2 column concentration |
+| Global Human Modification (gHM) | Official | `CSP/HM/GlobalHumanModification` | Global terrestrial | 2016 | Single year | 1000 m | Composite modification index |
+| NPKGRIDS | Community | `projects/sat-io/open-datasets/NPKGRIDS` | Global | 2015-2020 (circa 2020) | Static snapshot | 0.05 deg (~5.6 km) | N, P2O5, K2O application rates |
+| Global Dam Watch (GDW) | Community | `projects/sat-io/open-datasets/GDW/GDW_BARRIERS_V1_0` | Global | Current | Static snapshot | Vector points | Barrier locations and dam attributes |
+| HydroATLAS Basins L06 | Official | `WWF/HydroATLAS/v1/Basins/level06` | Global | Static | Static table | Vector basins | Basin anthropogenic covariates |
+| TIGER US Census Roads | Official | `TIGER/2016/Roads` | USA + territories | 2016 | Single snapshot | Vector lines | Road network geometry |
 
 ## Secondary Add-ons
 
