@@ -1,34 +1,5 @@
 # Google Earth Engine Human Impact Datasets
 
-Restored and expanded inventory for the Appears-to-GEE migration. This file keeps a short first-pass shortlist up top, then a fuller screened inventory below so versioning changes do not hide datasets that were previously screened or newly identified in the official and community Earth Engine catalogs.
-
-## Table Conventions
-
-| Field | Meaning |
-|---|---|
-| Public EE availability | `Official` = Google official catalog, `Community` = community catalog asset, `Project asset` = public Earth Engine asset outside the main catalog framing, `Not in public EE` = open dataset identified but not currently listed in the public official/community catalogs checked for this pass. |
-| Spatial extent | Literal dataset footprint used for screening, such as `Global`, `Global land`, `CONUS`, `USA + territories`, or `North America field of regard`. |
-| Temporal extent | Start-end period or release year represented by the dataset. |
-| Temporal resolution | Observation cadence or refresh interval, such as `Annual`, `5-year epochs`, `Near-daily`, or `Static snapshot`. |
-| Spatial resolution | Nominal raster size or vector geometry type reported for the product. |
-| Status | `Core` = strong first-pass join candidate, `Secondary` = useful add-on, `Context-only` = background/reference layer, `Support` = non-human-impact covariate retained for context. |
-
-Ordering rule used below:
-- within each category, tables are sorted from most extensive spatial coverage to less extensive coverage
-- within each spatial-extent group, finer spatial resolution is listed above coarser spatial resolution
-- vector datasets are kept ahead of broad basin/table products when nominal raster resolution is not directly comparable
-
-| Common spatial extent labels | Meaning |
-|---|---|
-| `Global` | Global or near-global product without a narrower regional restriction. |
-| `Global land` | Land surface only. |
-| `Global terrestrial` | Terrestrial land areas; excludes marine coverage. |
-| `Broad global (-60 to 85 latitude)` | Near-global product with latitude limits. |
-| `CONUS` | Contiguous United States. |
-| `CONUS + AK + HI + PR` | MTBS footprint across the US states plus Puerto Rico. |
-| `USA + territories` | US national coverage including territories. |
-| `North America field of regard` | Sensor viewing footprint over North America rather than a political boundary. |
-
 ## Primary Shortlist for First-Pass Global Joins
 
 | Tier | Dataset | Public EE availability | Asset ID | Spatial Extent | Temporal Extent | Temporal Resolution | Spatial Resolution | Why Keep It |
