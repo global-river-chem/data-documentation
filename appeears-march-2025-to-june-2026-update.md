@@ -9,13 +9,8 @@ This note tracks the main differences between the March 2025 spatial extraction 
 - March 2025 wide file: `all-data_si-extract_2_20250325.csv`
 - June 2026 wide file: `all-data_si-extract_3_20260629.csv`
 
-The Box copies are under:
-
-`spatial-data-extractions/spatial-data-files/appeears-nasa/`
-
-Shared copies should also be in the Google Drive data release folder:
-
-https://drive.google.com/drive/folders/1zF_Itljwn0bUWSTHEkwkMDyNOiKPXRF1
+Shared copies are in the
+[Google Drive data release folder](https://drive.google.com/drive/folders/1zF_Itljwn0bUWSTHEkwkMDyNOiKPXRF1).
 
 ## Main Changes
 
@@ -74,11 +69,7 @@ The main check files are:
 - `missing-shapefiles-with-chem-discharge_20260630.csv`: 9 sites with chemistry and discharge that still need shapefiles or another spatial-data plan
 - `missing-shapefiles-with-chem-only_20260630.csv`: 241 sites with chemistry only that still need shapefiles or another spatial-data plan
 
-The current Box copies are under:
-
-`spatial-data-extractions/qaqc/`
-
-The new-sites CSV is also uploaded to the Google Drive data release folder so collaborators do not need local Box paths.
+The shared new-sites CSV is in the Google Drive data release folder.
 
 ## Notes From Final Checks
 

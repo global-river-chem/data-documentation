@@ -1,7 +1,7 @@
 # Appears to GEE Data Source Migration
 
-CSV output stored in Box documentation folder:
-`/Users/sidneybush/Library/CloudStorage/Box-Box/Sidney_Bush/SiSyn/data_checking/documentation/driver_dataset_origin_appears_era5land_comparison.csv`
+The comparison CSV is shared in the
+[Google Drive data release folder](https://drive.google.com/drive/folders/1zF_Itljwn0bUWSTHEkwkMDyNOiKPXRF1).
 
 ## Driver Decision Table
 
